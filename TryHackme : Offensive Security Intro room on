@@ -1,0 +1,19 @@
+lab name: Offensive security
+completed: 03/10/2025
+duration: 1 hour
+skills practiced: Ethical hacking using brute force
+tools uses : command prompt
+connection: Tryhackme offensive security intro
+WALK THROUGH
+Deploy the machine: started the vulnerable windows on TryHackme.
+hacked a bank by using a fake account to transfer money
+commands: dirb enter URL_BASE: http://fakebank.thm/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+Scanning URL: http://fakebank.thm/ ----
+URL used + http://fakebank.thm/bank-deposit (CODE:200|SIZE:4663)           
++ http://fakebank.thm/images (CODE:301|SIZE:179)                  
+Challenges faced:
+struggled with identifying the url to use after scanning the machine
+KEY TAKEAWAYS
+Real-world pen test : testing for vulnerabilities
+relevance to job: prepares for SOC analyst roles penetration testing 
